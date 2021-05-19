@@ -27,6 +27,8 @@ if (fuelLevel > 20000 && engineTemperature <= 2500){
     console.log("Fuel level above 25%. Engines good.")
 } else if (fuelLevel <= 5000 || engineTemperature > 2500 || engineIndicatorLight === "red blinking"){
     console.log("ENGINE FAILURE IMMINENT!")
+}else{
+    console.log("Fuel and engine status pending...")
 }
 
 
